@@ -5,10 +5,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.restful</groupId>
-	<artifactId>SpringHibernateRESTFulJavaConfig</artifactId>
+	<artifactId>spring-hibernate-restful-java-config</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>SpringHibernateRESTFulJavaConfig</name>
+	<name>spring-hibernate-restful-java-config</name>
 
 	<properties>
 		<springframework.version>4.3.0.RELEASE</springframework.version>
@@ -198,13 +198,13 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringHibernateRESTFulJavaConfig</warName>
+						<warName>spring-hibernate-restful-java-config</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 
-		<finalName>SpringHibernateRESTFulJavaConfig</finalName>
+		<finalName>spring-hibernate-restful-java-config</finalName>
 	</build>
 </project>
