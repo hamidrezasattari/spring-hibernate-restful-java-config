@@ -7,6 +7,8 @@
 mvn clean package   jetty:run  -Djetty.http.port=9090
 
  # rest services address
+
+
 service one url: http://localhost:9090/serviceOne
 
 
